@@ -5,4 +5,34 @@ I'm executing from `x64 Native Tools Command Prompt for VS 2019` seems to work.
 I'm executing with everything as default.
 ** DONE std::experimental::fylesystem error
 Related with [[https://docs.microsoft.com/en-us/cpp/build/reference/zc-cplusplus?view=vs-2019][cplus plus enabled]]
-Added Zc:__cplusplus to C/C++ --> Command Line --> Additional options
+Added /Zc:__cplusplus to C/C++ --> Command Line --> Additional options
+Changed the C++ language profile to C17 (manual, annoying)
+** DONE Update *reaper_plugin_functions.h* 
+Just by following the instructions:
+`Replace reaper_plugin_functions.h with a version for your reaper install by running [developer] Write C++ API functions header action from your Reaper installation.`
+** DONE In the generated .sln: seem to be missing the output for the building of the plugin itself?
+Quoting from the existing docs: 
+just add the -reaper64_dir with the path to Reaper64
+** TODO Post build step execution is failing
+- Seems to be targeting: "C:/Program Files/REAPER (x64)/plugins/" in this post build command block
+```
+Severity	Code	Description	Project	File	Line	Suppression State
+Error	MSB3073	The command "setlocal
+"C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\Common7\IDE\CommonExtensions\Microsoft\CMake\CMake\bin\cmake.exe" -E copy E:/jcb/github/Reaper-Waapi-Transfer/build/reaper_waapi_transfer/Debug/reaper_waapi_transfer_x64.dll "C:/Program Files/REAPER (x64)/plugins/"
+if %errorlevel% neq 0 goto :cmEnd
+:cmEnd
+endlocal & call :cmErrorLevel %errorlevel% & goto :cmDone
+:cmErrorLevel
+exit /b %1
+:cmDone
+if %errorlevel% neq 0 goto :VCEnd
+:VCEnd" exited with code 1.	reaper_waapi_transfer	C:\Program Files (x86)\Microsoft Visual Studio\2019\Community\MSBuild\Microsoft\VC\v160\Microsoft.CppCommon.targets	149	
+```
+However when trying to copy into that directory we get an "Admin only operation" ... *wich probably makes sense* 
+In the target directory: Reaper has a warning
+```
+DO NOT INSTALL PLUG-INS TO THIS DIRECTORY --- THIS IS AN INTERNAL REAPER PATH.
+Install VST plug-ins to another path and add that path to REAPER's preferences.
+Install 3rd party REAPER extensions to your AppData\Roaming\REAPER\UserPlugins\ path.
+```
+*** TODO How to load the extensions menu in Reaper?

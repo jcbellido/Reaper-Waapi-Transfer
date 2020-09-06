@@ -1,1 +1,4 @@
 .cache
+*.rpp-bak
+**/*.validationcache
+**/*.wsettings
