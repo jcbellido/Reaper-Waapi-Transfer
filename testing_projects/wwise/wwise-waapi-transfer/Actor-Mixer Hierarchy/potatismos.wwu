@@ -1,6 +1,32 @@
 <?xml version="1.0" encoding="utf-8"?>
 <WwiseDocument Type="WorkUnit" ID="{AAEFC446-7495-4C17-9E44-AF3CBE84CD36}" SchemaVersion="97">
 	<AudioObjects>
-		<WorkUnit Name="potatismos" ID="{AAEFC446-7495-4C17-9E44-AF3CBE84CD36}" PersistMode="Standalone"/>
+		<WorkUnit Name="potatismos" ID="{AAEFC446-7495-4C17-9E44-AF3CBE84CD36}" PersistMode="Standalone">
+			<ChildrenList>
+				<Sound Name="reaper-waapi-transfer" ID="{A54051C8-B519-4E91-A0EE-8E101E7A328C}" ShortID="105388953">
+					<ReferenceList>
+						<Reference Name="Conversion">
+							<ObjectRef Name="Default Conversion Settings" ID="{6D1B890C-9826-4384-BF07-C15223E9FB56}" WorkUnitID="{E8219B2A-7894-4CF2-861B-ED60661303DA}"/>
+						</Reference>
+						<Reference Name="OutputBus">
+							<ObjectRef Name="Master Audio Bus" ID="{1514A4D8-1DA6-412A-A17E-75CA0C2149F3}" WorkUnitID="{7C7510E0-0010-46BF-BD38-FD11475EBCA0}"/>
+						</Reference>
+					</ReferenceList>
+					<ChildrenList>
+						<AudioFileSource Name="reaper-waapi-transfer" ID="{579714E2-0AD0-4634-9248-18C4625612DC}">
+							<Comment>REAPROJ:"E:\jcb\github\Reaper-Waapi-Transfer\testing_projects\reaper\reaper-waapi-transfer.rpp"</Comment>
+							<Language>SFX</Language>
+							<AudioFile>reaper-waapi-transfer.wav</AudioFile>
+							<MediaIDList>
+								<MediaID ID="369097436"/>
+							</MediaIDList>
+						</AudioFileSource>
+					</ChildrenList>
+					<ActiveSourceList>
+						<ActiveSource Name="reaper-waapi-transfer" ID="{579714E2-0AD0-4634-9248-18C4625612DC}" Platform="Linked"/>
+					</ActiveSourceList>
+				</Sound>
+			</ChildrenList>
+		</WorkUnit>
 	</AudioObjects>
 </WwiseDocument>

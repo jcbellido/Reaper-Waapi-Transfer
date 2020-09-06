@@ -35,4 +35,7 @@ DO NOT INSTALL PLUG-INS TO THIS DIRECTORY --- THIS IS AN INTERNAL REAPER PATH.
 Install VST plug-ins to another path and add that path to REAPER's preferences.
 Install 3rd party REAPER extensions to your AppData\Roaming\REAPER\UserPlugins\ path.
 ```
-*** TODO How to load the extensions menu in Reaper?
+So that's it, but fixing cmake is kinda overscoping at this moment.
+*** DONE How to load the extensions menu in Reaper?
+- They simply work on Reaper reload when the loading directory is correct.
+- An extra menu appears on Reaper's top with direct access to reaper waapi transfers
