@@ -1,4 +1,7 @@
 .cache
-*.rpp-bak
+**/*.rpp-bak
+**/*.wav
+**/*.akd
+**/*.reapeaks
 **/*.validationcache
 **/*.wsettings
