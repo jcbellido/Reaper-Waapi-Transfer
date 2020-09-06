@@ -1,5 +1,5 @@
 ﻿<?xml version="1.0" encoding="utf-8"?>
-<Project DefaultTargets="Build" ToolsVersion="15.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+<Project DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
   <ItemGroup Label="ProjectConfigurations">
     <ProjectConfiguration Include="Debug|Win32">
       <Configuration>Debug</Configuration>
@@ -51,7 +51,7 @@
     </ProjectConfiguration>
   </ItemGroup>
   <PropertyGroup Label="Globals">
-    <ProjectGuid>{C3D9F4ED-0F7F-EBE1-46F6-D76DCE5B5410}</ProjectGuid>
+    <ProjectGuid>{433B2FF1-78F3-72BC-0FCD-A316072FF700}</ProjectGuid>
     <Keyword>Win32Proj</Keyword>
     <RootNamespace>AkAutobahn</RootNamespace>
     <ProjectName>AkAutobahn</ProjectName>
@@ -75,184 +75,184 @@
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug(StaticCRT)|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug(StaticCRT)|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>true</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile(StaticCRT)|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile(StaticCRT)|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release(StaticCRT)|Win32'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release(StaticCRT)|x64'" Label="Configuration">
     <ConfigurationType>StaticLibrary</ConfigurationType>
     <UseDebugLibraries>false</UseDebugLibraries>
     <CharacterSet>Unicode</CharacterSet>
-    <PlatformToolset>v141</PlatformToolset>
+    <PlatformToolset>v142</PlatformToolset>
   </PropertyGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
   <ImportGroup Label="ExtensionSettings">
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug(StaticCRT)|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_StaticCRT_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_StaticCRT_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug(StaticCRT)|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_StaticCRT_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/Debug_StaticCRT_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Profile(StaticCRT)|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Profile(StaticCRT)|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release(StaticCRT)|Win32'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc160.props" />
   </ImportGroup>
   <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release(StaticCRT)|x64'">
     <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
-    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc150.props" />
+    <Import Project="../../../../../source/Build/PropertySheets/Win32/NDebug_StaticCRT_vc160.props" />
   </ImportGroup>
   <PropertyGroup Label="UserMacros" />
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Debug\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Debug\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Debug\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Debug\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|x64'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Debug\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Debug\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Debug\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Debug\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug(StaticCRT)|Win32'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Debug(StaticCRT)\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Debug(StaticCRT)\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Debug(StaticCRT)\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Debug(StaticCRT)\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug(StaticCRT)|x64'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Debug(StaticCRT)\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Debug(StaticCRT)\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Debug(StaticCRT)\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Debug(StaticCRT)\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|Win32'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Profile\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Profile\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Profile\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Profile\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile|x64'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Profile\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Profile\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Profile\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Profile\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile(StaticCRT)|Win32'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Profile(StaticCRT)\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Profile(StaticCRT)\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Profile(StaticCRT)\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Profile(StaticCRT)\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Profile(StaticCRT)|x64'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Profile(StaticCRT)\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Profile(StaticCRT)\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Profile(StaticCRT)\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Profile(StaticCRT)\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Release\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Release\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Release\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Release\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|x64'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Release\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Release\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Release\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Release\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release(StaticCRT)|Win32'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Release(StaticCRT)\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Release(StaticCRT)\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Release(StaticCRT)\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Release(StaticCRT)\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release(StaticCRT)|x64'">
-    <OutDir>..\..\..\..\..\$(Platform)_vc150\Release(StaticCRT)\lib\</OutDir>
-    <IntDir>..\..\..\..\..\$(Platform)_vc150\Release(StaticCRT)\obj\$(ProjectName)\</IntDir>
+    <OutDir>..\..\..\..\..\$(Platform)_vc160\Release(StaticCRT)\lib\</OutDir>
+    <IntDir>..\..\..\..\..\$(Platform)_vc160\Release(StaticCRT)\obj\$(ProjectName)\</IntDir>
     <TargetName>AkAutobahn</TargetName>
   </PropertyGroup>
   <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
@@ -264,6 +264,7 @@
       <Optimization>Disabled</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -278,7 +279,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -292,6 +293,7 @@
       <AdditionalIncludeDirectories>..\..\..\..\..\include;..\external\rapidjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -306,7 +308,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -321,6 +323,7 @@
       <Optimization>Disabled</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -335,7 +338,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -349,6 +352,7 @@
       <AdditionalIncludeDirectories>..\..\..\..\..\include;..\external\rapidjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>Disabled</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -363,7 +367,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -378,6 +382,7 @@
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -394,7 +399,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -408,6 +413,7 @@
       <AdditionalIncludeDirectories>..\..\..\..\..\include;..\external\rapidjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -424,7 +430,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -439,6 +445,7 @@
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -455,7 +462,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -469,6 +476,7 @@
       <AdditionalIncludeDirectories>..\..\..\..\..\include;..\external\rapidjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -485,7 +493,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -500,6 +508,7 @@
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -516,7 +525,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -530,6 +539,7 @@
       <AdditionalIncludeDirectories>..\..\..\..\..\include;..\external\rapidjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -546,7 +556,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -561,6 +571,7 @@
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
       <EnableEnhancedInstructionSet>StreamingSIMDExtensions</EnableEnhancedInstructionSet>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -577,7 +588,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX86</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
@@ -591,6 +602,7 @@
       <AdditionalIncludeDirectories>..\..\..\..\..\include;..\external\rapidjson;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
       <Optimization>MaxSpeed</Optimization>
       <ExceptionHandling>Sync</ExceptionHandling>
+      <AdditionalOptions>/d2FH4- %(AdditionalOptions)</AdditionalOptions>
       <ProgramDataBaseFileName>$(OutDir)$(TargetName).pdb</ProgramDataBaseFileName>
     </ClCompile>
     <ResourceCompile>
@@ -607,7 +619,7 @@
       <TreatLibWarningAsErrors>true</TreatLibWarningAsErrors>
       <OutputFile>$(OutDir)AkAutobahn.lib</OutputFile>
       <TargetMachine>MachineX64</TargetMachine>
-      <AdditionalOptions>/ignore:4221 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalOptions>/d2:-FH4- /ignore:4221 %(AdditionalOptions)</AdditionalOptions>
     </Lib>
     <ProjectReference>
       <LinkLibraryDependencies>false</LinkLibraryDependencies>
